@@ -8,6 +8,7 @@ public class ReadWriteConsole {
 
         System.out.print("Enter first numbers: ");
         double first = reader.nextDouble();
+
         System.out.print("Enter second numbers: ");
         double second = reader.nextDouble();
 
@@ -35,6 +36,7 @@ public class ReadWriteConsole {
                 System.out.println("Error! operator is not correct");
                 return;
         }
+
         // printing the result of the operations
         System.out.printf("%.1f %c %.1f = %.1f", first, operator, second, result);
     }
