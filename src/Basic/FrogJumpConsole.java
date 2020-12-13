@@ -2,8 +2,8 @@ package Basic;
 
 public class FrogJumpConsole {
     public static void main(String[] args) {
-        int round = 15;
-        int jump = 3;
+        int round = 20;
+        int jump = 7;
         int distance = 0;
         int time = 0;
 
